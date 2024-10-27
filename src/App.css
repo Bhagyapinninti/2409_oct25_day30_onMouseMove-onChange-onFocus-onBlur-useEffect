@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+form{
+  display: inline-block;
+  background-color: darkslategray;
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/02/22/53/background-1792968_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 20px;
+  font-size: 1.3rem;
+  border: 7px groove goldenrod;
+}
+form label{
+  display: inline-block;
+  width: 150px;
+}
+form div{
+margin: 20px;
+}
+input:hover{
+border:3px solid yellow;
+transition: ease(1.1);
+}
+
+button:hover{
+  border:3px solid darkblue;
+  background-color: aqua;
+  font-size: 1.3rem;
+  transition: ease(1.1);
+}
+body{
+  background-color: lightskyblue;
+
+}
